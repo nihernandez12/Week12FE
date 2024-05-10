@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tasty Burger</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<style>
+    .media{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .text{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+</style>
+<body class="container text-center">
+    <h1>The Tasty Burger</h1>    
+    <div class="media bg-secondary">
+            <div class="image">
+                 <img 
+                 class="img-responsive"
+                 src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Scrum-Delicious-Burgers_EXPS_CHMZ19_824_B10_30_2b-1.jpg"
+                 alt="A juicy, delicious burgers">
+                </div>
+                 <div class="text bg-success-subtle">
+                <h3>MENU</h3>
+                  <p> All Burgers are $10.50 <br>
+                   *Make any meal a combo for $3.50 <br>
+                  <br>
+                 1. The Classic- tomato, onion, lettuce, mayo, 1/2 lb premium beef patty<br>
+                 2. The Classic with Cheese <br>
+                 3. The Shroom- Grilled onion, grilled mushrooms, garlic aioli, 1/2 lb premium beef patty, swiss cheese <br>
+                 4. The Western- Onion ring, mayo, BBQ sauce, bacon, 1/2 lb premium beef patty, cheddar cheese <br>
+                 5. The Fresh- tomato, onion, lettuce, mayo, avacodo spread, 1/2 lb premium beef patty, cheddar cheese <br>
+                  <br>
+                  Sides <br>
+                 -Fries..................... $3.50<br>
+                -Onion Rings..... $4.00<br>
+                -Fried Pickles ... $4.00<br>
+                 <br>
+                 Drinks <br>
+                 Small........... $2.00 <br>
+                 Medium..... $2.50 <br>
+                 Large........... $3.00 <br>
+                 <br>
+                 </p>
+                </div>
+                </div>
+    <div id="new-order" class="jumbotron">
+        <h2>New Order</h2>
+        <input type="text" id="new-order-name" class="form-control" placeholder="Enter Name"><br>
+        <button id="create-new-order" class="btn btn-success form-control">New Order</button>
+    </div>
+    <div id="app">
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
+</body>
+</html>
